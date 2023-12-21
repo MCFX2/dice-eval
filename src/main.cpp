@@ -1,6 +1,10 @@
 #include <iostream>
+#include <Windows.h>
 
-int main() {
-	std::cout << "Hello, World!" << std::endl;
-	return 0;
+#include "imgui.h"
+
+#include "UICore.h"
+
+int main(HWND window) {
+	UI::Init();
 }
